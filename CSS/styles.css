@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 0.625em;
+}
+body {
+  font-family: "Karla";
+  overflow-y: hidden;
+  color: hsl(204, 43%, 93%);
+}
+.flex-container {
+  display: flex;
+  background-color: hsl(204, 43%, 93%);
+  height: 100vh;
+  padding: 8em 3.2em;
+}
+.price-section {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 45%;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 1rem 3rem hsla(217, 22%, 67%, 0.479);
+}
+.price-header {
+  grid-column: 1/-1;
+  background-color: white;
+  padding: 3.6em 4.8em 3.6em 4.8em;
+}
+.price__primary-heading {
+  color: hsl(179, 62%, 43%);
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.price__secondary-heading {
+  font-size: 1.8rem;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1.2rem;
+}
+.price__description {
+  font-size: 1.6rem;
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+}
+.price__subscription {
+  background-color: hsl(179, 62%, 43%);
+  padding: 3.6em;
+}
+.price__subscription-time {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+.price__subscription-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+.price__subscription-text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsla(203, 44%, 93%, 0.5);
+}
+.price__subscription-value {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.price__subsciption-conviction {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+.price__subscription-btn {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  padding: 1em;
+  font-size: 1.6rem;
+  color: hsl(203, 44%, 93%);
+  font-weight: 700;
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+.price__answers {
+  background-color: hsla(179, 62%, 43%, 0.801);
+  padding: 3.6rem;
+}
+ul {
+  list-style: none;
+  font-size: 1.4rem;
+  color: hsla(203, 44%, 93%, 0.7);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.price__question {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  font-weight: 700;
+}

@@ -1,0 +1,91 @@
+@media (max-width: 78em) {
+  .price-section {
+    grid-template-columns: 1fr;
+  }
+  body {
+    overflow-y: visible;
+  }
+  .flex-container {
+    height: 100%;
+  }
+  .price__secondary-heading {
+    font-size: 1.6rem;
+  }
+  .price__description {
+    font-size: 1.4rem;
+  }
+  .price__subscription-time {
+    font-size: 1.6rem;
+  }
+  .price__subscription-text {
+    font-size: 1.6rem;
+  }
+  .price__question {
+    font-size: 1.6rem;
+  }
+  ul {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 59em) {
+  ul {
+    font-size: 1.6rem;
+  }
+  .price-section {
+    max-width: 60%;
+  }
+  .price__secondary-heading {
+    font-size: 1.5rem;
+  }
+  .price__description {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 44em) {
+  .price-section {
+    max-width: 65%;
+  }
+  .price__primary-heading {
+    font-size: 1.8rem;
+  }
+  .price__description {
+    font-size: 1.4rem;
+  }
+  .price-header {
+    padding: 2.4em 3.2em 2.4em 3.2em;
+  }
+  .price__subscription {
+    padding: 2.4em 3.2em 2.4em 3.2em;
+  }
+  .price__answers {
+    padding: 2.4em 3.2em 2.4em 3.2em;
+  }
+  ul {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 31em) {
+  .price-section {
+    max-width: 100%;
+  }
+  .price__description {
+    font-size: 1.3rem;
+  }
+  .price-header,
+  .price__subscription,
+  .price__answers {
+    padding: 3.2em 2.4em 3.2em 2.4em;
+  }
+
+  .price__secondary-heading {
+    font-size: 1.6rem;
+  }
+
+  .price__primary-heading {
+    font-size: 2rem;
+  }
+  .price__question,
+  .price__subscription-time {
+    font-size: 1.8rem;
+  }
+}
